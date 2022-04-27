@@ -1,0 +1,16 @@
+package main
+
+import (
+	"os"
+
+	"github.com/01-edu/z01"
+)
+
+func main() {
+	t := []rune(os.Args[0])
+
+	for i := range t {
+		z01.PrintRune(t[i])
+	}
+	z01.PrintRune('\n')
+}
