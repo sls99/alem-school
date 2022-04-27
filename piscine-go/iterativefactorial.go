@@ -1,7 +1,7 @@
 package piscine
 
 func IterativeFactorial(nb int) int {
-	if nb < 0 || nb > 9223372036854775807 {
+	if nb < 0 || nb > 2147483647 {
 		return 0
 	}
 	fact := 1
